@@ -1,0 +1,12 @@
+{
+  "name": "correios_pesquisar_2.0",
+  "version": "1.0.0",
+  "description": "Usando uma API e agora com React e React Native para Android!",
+  "main": "index.js",
+  "repository": "https://github.com/cafesao/Correios_Pesquisar_2.0.git",
+  "author": "cafesao <gabriel.diasdutra2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.1"
+  }
+}
