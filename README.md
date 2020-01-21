@@ -1,22 +1,22 @@
 # Correios 2.0
 ## Uma tela mais amigável dos correios
 
-### Quem é esse tal de Cafesão? :question:
+### Quem é esse tal de Cafesão :question:
 
 Ola, o meu nome é Gabriel, apelido **Cafesão**.
 Sou apenas um cara que **ama programar** e gosta de desafios, e desta vez o desafio foi atualizar um projeto antigo, usando a API do [ViaCEP](https://viacep.com.br/), só que agora com as tecnologias do React e React Native(React Native num futuro próximo, aguardem...)
 
-### Por que decidiu atualizar seu projeto antigo? :question:
+### Por que decidiu atualizar seu projeto antigo :question:
 
 Como eu tive um contato mais profundo com React e React Native nestes últimos dias, decidi testar os dois, em diversos projetos já criados, seja pela facilidade de implementar uma solução com esses dois frameworks, como também, usando para adquirir conhecimento, que na maioria das vezes se encontra nestas...atualizações.
 
-### E como foi o desenvolvimento deste projeto? :question:
+### E como foi o desenvolvimento deste projeto :question:
 
 Simples, usando os conceitos que eu aprendi em outros projetos e tendo um problema de ser relativamente parecido, eu consegui criar uma pagina em React e um App em React Native, sem grandes dificuldades.
 
 > Tenho que começar a ter mais criatividade nos visuais dos sites e dos Apps...
 
-### E como faço para rodar? :open_mouth:
+### E como faço para rodar :open_mouth:
 
 Primeiramente você precisa ter o [Yarn](https://yarnpkg.com/pt-BR/) instalado, junto com o [Node.JS](https://nodejs.org/pt-br/).
 
