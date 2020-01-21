@@ -1,0 +1,33 @@
+.resultado-container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    color: #DDD;
+}
+
+.resultado-container img {
+    width: 400px;
+    height: 100px;
+    margin: 50px 0;
+}
+
+.resultado-container p {
+    font-size: 25px;
+    line-height: 20px;
+    color: #00A4DC;
+    margin-top: 28px;
+}
+
+.resultado-container strong {
+    font-size: 30px;
+    color: #00416C;
+}
+
+.erro-container {
+    margin-top: 50px;
+}
+
+.erro-container p {
+    color: rgba(0, 165, 220, 0.356);
+}
