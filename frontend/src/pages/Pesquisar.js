@@ -3,34 +3,29 @@ import './Pesquisar.css';
 
 import Logo from '../assets/_correio.png'
 
-function Pesquisar({ history }) {
+export default function Pesquisar({ history }) {
   const [Cep, SetCep] = useState()
 
   function handlePesqusiar(e) {
     e.preventDefault()
 
-    function Verificar(CepParams) {
-      if(!CepParams) {
-        alert('Digite o seu Cep')
-        return false
-      }
-  
-      else if(CepParams.length !== 8) {
-        alert('Seu Cep deve conter 8 Digitos')
-        return false
-      }
-  
-      else if(CepParams.search(/(\D)/) !== -1) {
-        alert('O Cep deve conter apenas numeros')
-        return false
-      }
-
-      return true
-    }
-
-    if(Verificar(Cep) === true){
+    if(Verificar(Cep)){
       history.push(`/ws/${Cep}`)
     }
+  }
+
+  function Verificar(CepParams) {
+    if(!CepParams || CepParams.length !== 8) {
+      alert('Digite o seu Cep')
+      return false
+    }
+
+    else if(CepParams.search(/(\D)/) !== -1) {
+      alert('O Cep deve conter apenas numeros')
+      return false
+    }
+
+    return true
   }
 
   function handleLimpar() {
@@ -45,6 +40,7 @@ function Pesquisar({ history }) {
           placeholder='Digite seu CEP'
           value={Cep}
           onChange={e => SetCep(e.target.value)}
+          maxLength = {8}
         />   
         <button className='btn' type='submit'>Pesquisar</button>
         <button className='btn' type='reset' onClick={handleLimpar}>Limpar</button>
@@ -52,5 +48,3 @@ function Pesquisar({ history }) {
     </div>
   )
 }
-
-export default Pesquisar;
