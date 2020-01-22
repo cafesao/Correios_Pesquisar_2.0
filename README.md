@@ -4,7 +4,7 @@
 ### Quem é esse tal de Cafesão :question:
 
 Ola, o meu nome é Gabriel, apelido **Cafesão**.
-Sou apenas um cara que **ama programar** e gosta de desafios, e desta vez o desafio foi atualizar um projeto antigo, usando a API do [ViaCEP](https://viacep.com.br/), só que agora com as tecnologias do React e React Native(React Native num futuro próximo, aguardem...)
+Sou apenas um cara que **ama programar** e gosta de desafios, e desta vez o desafio foi atualizar um projeto antigo, usando a API do [ViaCEP](https://viacep.com.br/), só que agora com as tecnologias do React e React Native.
 
 ### Por que decidiu atualizar seu projeto antigo :question:
 
