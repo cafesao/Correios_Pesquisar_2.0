@@ -26,7 +26,5 @@ Explicação do comando:
 
 >O comando yarn install é usado para instalar todas as dependências de um projeto. As dependências são recuperadas do arquivo package.json do seu projeto, e armazenadas no arquivo yarn.lock.
 
-Depois de ter instalado as dependências e só colocar `yarn dev` dentro da pasta do 'backend', `yarn start` na pasta do 'frontend' e `yarn react-native run-android` na pasta do 'mobile'.
+Depois de ter instalado as dependências e só entrar na pasta backend e executar o comando `yarn dev`, também acessar a pasta frontend e executar o comando `yarn start` e acessar a pasta mobile e executar o comando `yarn react-native run-android`.
 No caso do mobile, não esqueça de executar `npx react-native init [NOME_DO_APP]`, para que ele baixe os arquivos para rodar, tanto no Android, quanto no Iphone.
-
-Caso algum erro aconteça no 'frontend', execute `yarn create react-app [NOME_DO_APP]` e apenas realoque as pastas e apague os arquivos que você não ira usar.
