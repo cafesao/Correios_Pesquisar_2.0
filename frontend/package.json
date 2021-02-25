@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.7.3",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-loading": "^2.0.3",
@@ -16,7 +17,8 @@
   },
   "scripts": {
     "start": "PORT=8000 react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "listen": "node expose.js"
   },
   "eslintConfig": {
     "extends": "react-app"

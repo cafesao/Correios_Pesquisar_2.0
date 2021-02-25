@@ -8,6 +8,8 @@ RUN yarn install
 
 COPY . .
 
+RUN yarn build
+
 EXPOSE 8000
 
-CMD yarn start
+CMD yarn listen
