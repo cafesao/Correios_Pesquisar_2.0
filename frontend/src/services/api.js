@@ -1,8 +1,7 @@
-import React from 'react'
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'https://viacep.com.br/ws'
+  baseURL: 'https://viacep.com.br/ws',
 })
 
 export default api

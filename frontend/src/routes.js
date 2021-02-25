@@ -1,14 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 
-import Pesquisar from './pages/Pesquisar'
-import Resultado from './pages/Resultado'
+import Search from './pages/Search'
+import Result from './pages/Result'
 
 export default function Routes() {
-    return (
-        <BrowserRouter>
-            <Route path='/' exact component={Pesquisar} />
-            <Route path='/ws/:cep' component={Resultado} />
-        </BrowserRouter>
-    )
+  return (
+    <BrowserRouter>
+      <Route path="/" exact component={Search} />
+      <Route path="/ws/:cep" component={Result} />
+    </BrowserRouter>
+  )
 }
