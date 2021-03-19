@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  correios-pesquisar:
+    container_name: correios-pesquisar
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '7070:7070'

@@ -19,14 +19,11 @@ Simples, usando os conceitos que eu aprendi em outros projetos e tendo um proble
 
 ### E como faço para rodar :open_mouth:
 
-Primeiramente você precisa ter o [Yarn](https://yarnpkg.com/pt-BR/) instalado, junto com o [Node.JS](https://nodejs.org/pt-br/).
+Primeiramente você precisa ter o [Docker](https://docs.docker.com/engine/install/ubuntu/) instalado.
 
-Feito isso e verificado se o Yarn e o Node.JS esta devidamente instalado, e só entrar nas pasta do 'frontend' via terminal e colocar o comando `yarn install`, feito isso ele ira instalar todas as dependências.
 
-Explicação do comando:
+Basta rodar o comando `docker build --tag correios_pesquisar:latest .` e depois `docker run -p 7070:7070 correios_pesquisar:latest`
 
-> O comando yarn install é usado para instalar todas as dependências de um projeto. As dependências são recuperadas do arquivo package.json do seu projeto, e armazenadas no arquivo yarn.lock.
+Ou via [Docker-Compose](https://docs.docker.com/compose/install/), basta rodar o comando `docker-compose up --build`
 
-Depois de ter instalado as dependências e só entrar na pasta frontend e executar o comando `yarn start`.
-
-Caso queira rodar via docker, basta rodar o comando `docker build --tag correios_pesquisar:latest .` e depois `docker run -i -t -p 8000:8000 correios_pesquisar:latest`
+Você pode acessar no link http://localhost:7070
